@@ -1,4 +1,7 @@
 package com.fiap.mecatronica.monitoramento.model;
 
-public class StatusMedicao {
+public enum StatusMedicao {
+    NORMAL,
+    ALERTA,
+    CRITICO
 }
